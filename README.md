@@ -1,4 +1,4 @@
-## Manim˚
+## Manim
 
 Trying out the Manim Community Edition Framework
 

@@ -20,5 +20,6 @@ Low quality rendering for quicker feedback when animating:
 `manim --progress_bar display -pql <FILE_NAME>.py <CLASS_NAME>`
 
 In both cases:
+
 - Media will be played
 - Media will be saved to `./media`

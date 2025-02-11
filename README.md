@@ -6,7 +6,7 @@ Trying out the Manim Community Edition Framework
 
 1. `brew update`
 2. `brew upgrade`
-3. `brew install pango cairo ffmpeg py3cairo pkg-config`
+3. `brew install pango cairo ffmpeg py3cairo pkg-config manim`
 4. `pip install -r requirements.txt`
 
 ## Rendering

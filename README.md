@@ -11,15 +11,24 @@ Trying out the Manim Community Edition Framework
 
 ## Rendering
 
-High quality rendering for producing ready-to-show animations:
+High quality video rendering for producing ready-to-show animations:
 
 `manim --progress_bar display -pqh <FILE_NAME>.py <CLASS_NAME>`
 
-Low quality rendering for quicker feedback when animating:
+
+Low quality video rendering for quicker feedback when animating:
 
 `manim --progress_bar display -pql <FILE_NAME>.py <CLASS_NAME>`
 
-In both cases:
+High quality image rendering of the last frame in the scene:
 
-- Media will be played
+`manim --progress_bar display -pqh -s <FILE_NAME>.py <CLASS_NAME>`
+
+High quality image rendering of the last frame in the scene with transparent background:
+
+`manim --progress_bar display -pqh -s -t <FILE_NAME>.py <CLASS_NAME>`
+
+In all cases:
+
+- Media will be displayed
 - Media will be saved to `./media`

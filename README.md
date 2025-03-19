@@ -21,7 +21,7 @@ Low quality video rendering for quicker feedback when animating:
 
 High quality gif rendering:
 
-`manim --progress_bar --format=gif display -pqh <FILE_NAME>.py <CLASS_NAME>`
+`manim --progress_bar --format=gif display -pql <FILE_NAME>.py <CLASS_NAME>`
 
 High quality image rendering of the last frame in the scene:
 

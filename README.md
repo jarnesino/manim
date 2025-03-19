@@ -15,10 +15,13 @@ High quality video rendering for producing ready-to-show animations:
 
 `manim --progress_bar display -pqh <FILE_NAME>.py <CLASS_NAME>`
 
-
 Low quality video rendering for quicker feedback when animating:
 
 `manim --progress_bar display -pql <FILE_NAME>.py <CLASS_NAME>`
+
+High quality gif rendering:
+
+`manim --progress_bar --format=gif display -pqh <FILE_NAME>.py <CLASS_NAME>`
 
 High quality image rendering of the last frame in the scene:
 

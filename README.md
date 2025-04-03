@@ -19,7 +19,7 @@ Low quality video rendering for quicker feedback when animating:
 
 `manim --progress_bar display -pql <FILE_NAME>.py <CLASS_NAME>`
 
-High quality gif rendering:
+Gif rendering (quality limited to avoid performance problems):
 
 `manim --progress_bar --format=gif display -pql <FILE_NAME>.py <CLASS_NAME>`
 

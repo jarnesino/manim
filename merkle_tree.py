@@ -62,8 +62,14 @@ class MerkleTreeConstruction(MerkleTreeScene):
         self.play(Write(self.hash_data1), Write(self.hash_data2), Write(self.hash_data3), Write(self.hash_data4))
         self.wait(3)
 
-        self.play(Create(self.line5), Create(self.line6), Create(self.line7), Create(self.line8), Create(self.box_hash_left), Create(self.box_hash_right))
-        self.play(Write(self.hash_left), Write(self.hash_right))
+        self.play(
+            Create(self.line5), Create(self.line6), Create(self.box_hash_left),
+            Create(self.line7), Create(self.line8), Create(self.box_hash_right)
+        )
+        self.play(
+            Write(self.hash_left),
+            Write(self.hash_right)
+        )
         self.wait(3)
 
         self.play(Create(self.line9), Create(self.line10), Create(self.box_hash_root))
